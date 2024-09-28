@@ -1,0 +1,33 @@
+Multitasking : It is the process doing multiple task at the same time at one cpu.
+For example : You are writing on  MS word and listening to a song at the same time or you can open multiple tabs, apps on your system.
+
+Threads : It is a small unit of process.
+
+For example : You are writing on MS word (It is one Process).
+             Typing (Sub-Process) (Thread)
+             Spell Checking (Thread)
+
+
+Ques : Why we need Thread ? 
+Ans : To optimal use of CPU/Memory
+
+Important : Java is Single Threaded Application. 
+It uses Single Thread. i.e Main
+
+Use of Multithreading 
+ ->If we uses multiple threads instead of one thread it makes faster Exceution.
+     e.g : Suppose we have an array of 500 elements {1,2,3,4,5...500} we have to multiple each element by 2 suppose it takes 8secs to do this task but if we use 4 threads or more it makes this task complete in less than 8secs.
+
+
+Thread in Java : 
+Threads are the inbuild class in java.
+ ->To Achieve Threads in Java just call its object.
+
+Thread t1=new Thread();
+
+There are numerous number of methods of Threads.
+t1.sleep();
+t1.start();
+t1.stop();
+....
+Many more

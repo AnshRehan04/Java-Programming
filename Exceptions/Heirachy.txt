@@ -1,0 +1,15 @@
+Throwable(Class) 
+        ->Exception
+               ->Checked
+                   ->IOException
+                   ->SQLException
+
+               ->Unchecked 
+                    ->RuntimeException
+                        ->ArimeticException
+                        ->ArrayoutofBoundException
+                        ->NullPointerException
+                        ->InvalidinputException
+
+
+

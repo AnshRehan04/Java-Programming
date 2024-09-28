@@ -1,0 +1,35 @@
+Wrapper Class: It is a class in java whose objects wraps or contains primitive data types .
+We can create an object to a wrapper class.We can store primitive data types.
+
+char  -> Character
+byte  -> byte
+long  ->Long 
+double -> Double 
+
+We can create an object of primitive data type using wrapper class.
+Integer obj1=new Integer(12);
+Integer obj2=Integer.valueof(12);
+Integer obj3=12;  //autoboxing
+
+Autoboxing : It means conversion of primitive types into object of their corresponding wrapper classes.
+e.g int to Integer ,long to Long etc.
+
+Unboxing : It is opposite of Autoboxing . It is conversion of the object of wrapper classes into primitive type.
+e.g int to Integer , double to Double etc.
+
+int obj4=obj; //Unboxing
+
+Generics : Generics means paramterized types.Using Generics,it is possible to create classes that work
+with different data types.
+
+Suppose you want to create a class with a constructor . if you want to create multiple objects of same class with different datatypes
+we can create using generics.
+
+It only supports non-primitive datatypes.
+
+Generics Methods : Similar to Generics class,we can also create a method that can be used with any type of data.Such class is known as Generics method.
+public <T> void printdata(E data){
+    sout(data);
+}
+
+Where T is the type of data type.(Non-Primitve)
